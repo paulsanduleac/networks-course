@@ -2,6 +2,9 @@
 
 Implemented simple client/server applications that interact on the same machine between two sockets.
 
+Demo:
+![](https://media.giphy.com/media/l4KicAag7QsFgQcmY/giphy.gif)
+
 Basic features:
 
 1. The server prints debug information about each incoming connection, indicating the remote address.
