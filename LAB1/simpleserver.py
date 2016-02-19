@@ -41,9 +41,9 @@ def runsocket():
 #make it listen
 listeningSocket.listen(5)
 
-for i in range(10):
+for i in range(30):
 	threading.Thread(target=runsocket).start()
-print "Ready to accept up to 10 incoming connections."
+print "Ready to accept up to 30 incoming connections."
 #close everything and get outta here
 if KeyboardInterrupt: sys.exit()
 listeningSocket.close()
